@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Function", "01-Function", "{2434A9CC-2A7F-4B32-8550-334394936637}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Application", "02-Application", "{35DF64D0-3DFE-470F-B9FD-4867B0B5D961}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Domain", "03-Domain", "{5C451709-794C-4145-A2C8-3A878152BC28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Core", "04-Core", "{B6EC092F-B62D-42AE-A420-A97D08EFC7D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Infra", "05-Infra", "{6DD8524A-5DA4-40AC-97DA-D6BD74E9B75E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Osteria.Backend.Core", "Osteria.Backend.Core\Osteria.Backend.Core.csproj", "{D066436B-33D1-4967-A00B-9A1B1095BCB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Osteria.Backend.Functions", "Osteria.Backend.Functions\Osteria.Backend.Functions.csproj", "{C14C0C0B-0FF7-45B4-8D92-4C18829A43E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Osteria.Backend.Application", "Osteria.Backend.Application\Osteria.Backend.Application.csproj", "{1CDAF883-47F9-4A29-BBEC-E92B6DD44F86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Osteria.Backend.Domain", "Osteria.Backend.Domain\Osteria.Backend.Domain.csproj", "{22E5E8B3-9FB8-4D64-AE09-A626BEDC68E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D066436B-33D1-4967-A00B-9A1B1095BCB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D066436B-33D1-4967-A00B-9A1B1095BCB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D066436B-33D1-4967-A00B-9A1B1095BCB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D066436B-33D1-4967-A00B-9A1B1095BCB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C14C0C0B-0FF7-45B4-8D92-4C18829A43E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C14C0C0B-0FF7-45B4-8D92-4C18829A43E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C14C0C0B-0FF7-45B4-8D92-4C18829A43E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C14C0C0B-0FF7-45B4-8D92-4C18829A43E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CDAF883-47F9-4A29-BBEC-E92B6DD44F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CDAF883-47F9-4A29-BBEC-E92B6DD44F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CDAF883-47F9-4A29-BBEC-E92B6DD44F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CDAF883-47F9-4A29-BBEC-E92B6DD44F86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22E5E8B3-9FB8-4D64-AE09-A626BEDC68E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E5E8B3-9FB8-4D64-AE09-A626BEDC68E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E5E8B3-9FB8-4D64-AE09-A626BEDC68E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E5E8B3-9FB8-4D64-AE09-A626BEDC68E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D066436B-33D1-4967-A00B-9A1B1095BCB8} = {B6EC092F-B62D-42AE-A420-A97D08EFC7D8}
+		{C14C0C0B-0FF7-45B4-8D92-4C18829A43E8} = {2434A9CC-2A7F-4B32-8550-334394936637}
+		{1CDAF883-47F9-4A29-BBEC-E92B6DD44F86} = {35DF64D0-3DFE-470F-B9FD-4867B0B5D961}
+		{22E5E8B3-9FB8-4D64-AE09-A626BEDC68E4} = {5C451709-794C-4145-A2C8-3A878152BC28}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15B69006-98FB-4225-AEAE-5699C898DB2A}
+	EndGlobalSection
+EndGlobal
